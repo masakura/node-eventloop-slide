@@ -1,10 +1,7 @@
+# Node.js
+# イベントループを
+# 調べてみた
 
-# eventloop
+Tomo Masakura
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+東京 Node 学園祭 (2016/11/12)
