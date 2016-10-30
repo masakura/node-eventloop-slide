@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "eventloop",
+    "packageVersion": "0.0.0",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "masakura",
+    "githubRepository": "node-eventloop-slide"
+  }
+}
