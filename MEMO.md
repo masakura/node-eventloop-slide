@@ -82,3 +82,4 @@ uv_fs_poll_start:StatWatcher::Start
 
 
 ### FileSystem
+epoll 使ってポーリング (= ブロッキング I/O) だと思うんだけど、https://drive.google.com/file/d/0B1ENiZwmJ_J2a09DUmZROV9oSGc/view こっちで見ると、fs.* Thread pool ってなってて、内部でスレッドが使われている? よく分からなかった。

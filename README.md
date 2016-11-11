@@ -32,16 +32,16 @@ C/C++ 言語のソースコードを読むのは久々で、社長にも手伝�
 | 名前 | 役割
 | ---- | ----
 | timers | `setTimeout()` と `setInterval()` の実行
-| I/O callbacks | TCP エラーなどの例外と `setImmediate()`
+| I/O callbacks | コールバック系? (TCP エラーなどの例外が主らしい)
 | idle, prepare | 内部使用
-| poll | メインの処理?
+| poll | I/O をポーリングして非同期に見せかけるところ
 | check | `setImmediate()`
 | close callbacks | ソケットが閉じた時とか
 
 調べないといけないことがけっこういっぱいある。
 
 * timers と poll のどっちで `setTimeout` が実行されるのか?
-  - poll の方はコントロールだけっぽい
+  - ~~poll の方はコントロールだけっぽい~~ timers のみっぽい
 
 
 #### SoftwareDesign 2016 年 10 月号
