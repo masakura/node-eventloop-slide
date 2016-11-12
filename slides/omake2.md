@@ -1,4 +1,4 @@
-### [/deps/uv/src/queue.h](https://github.com/nodejs/node/blob/v6.5.0/deps/uv/src/queue.h)
+### [deps/uv/src/queue.h](https://github.com/nodejs/node/blob/v6.5.0/deps/uv/src/queue.h)
 
 libuv で使われているキューマクロ。かなり読みにくい。
 
