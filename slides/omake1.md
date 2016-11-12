@@ -6,6 +6,6 @@
 | doc/ | ドキュメント
 | deps/ | 依存ライブラリ
 | deps/v8 | v8
-| deps/uv/ | libuv
+| deps/uv/ | libuv (C)
 | deps/uv/unix/ | libuv Unix 用ソースコード
 | deps/uv/unix/linux-*.c | libuv Linux 用ソースコード
